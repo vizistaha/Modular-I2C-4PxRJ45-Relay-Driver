@@ -4965,6 +4965,11 @@
       (net 2 "GNDREF") (pinfunction "EH") (pintype "bidirectional") (tstamp 9e0a6fd1-b773-49c7-a7a7-9be339eaccce))
     (pad "EH" thru_hole circle (at -13.97 -7.365 180) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Paste *.Mask)
       (net 2 "GNDREF") (pinfunction "EH") (pintype "bidirectional") (tstamp db0a14fb-76da-41c6-98e0-c53c4b0103b7))
+    (model "${KIPRJMOD}/Kicad-Library/3d/RJ45 x 4/RJ45 x 4.step"
+      (offset (xyz 0 -3 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
