@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "ICMS-8S1")(type "KiCad")(uri "${KIPRJMOD}/Kicad-Library/Symbols/ICMS-8S1.kicad_sym")(options "")(descr ""))
+)
