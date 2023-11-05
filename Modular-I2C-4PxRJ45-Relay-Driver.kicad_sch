@@ -7179,7 +7179,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at -273.05 134.6199 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Austins creations:2pinblock" (id 2) (at -278.13 129.54 0)
+    (property "Footprint" "Vizista:CONN-TH_WJ2EDGVC-5.08-2P" (id 2) (at -278.13 129.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at -259.08 132.08 0)
@@ -7727,7 +7727,7 @@
     (property "Value" "Screw_Terminal_01x02" (id 1) (at -273.05 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Austins creations:2pinblock" (id 2) (at -278.13 114.3 0)
+    (property "Footprint" "Vizista:CONN-TH_WJ2EDGVC-5.08-2P" (id 2) (at -278.13 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at -259.08 116.84 0)
@@ -10660,10 +10660,10 @@
       (reference "J2") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical")
     )
     (path "/5c80bb60-c1a7-4555-aac8-f98784916264"
-      (reference "J3") (unit 1) (value "Screw_Terminal_01x02") (footprint "Austins creations:2pinblock")
+      (reference "J3") (unit 1) (value "Screw_Terminal_01x02") (footprint "Vizista:CONN-TH_WJ2EDGVC-5.08-2P")
     )
     (path "/2e2f44e0-bff2-476d-8545-70d22caf66d0"
-      (reference "J4") (unit 1) (value "Screw_Terminal_01x02") (footprint "Austins creations:2pinblock")
+      (reference "J4") (unit 1) (value "Screw_Terminal_01x02") (footprint "Vizista:CONN-TH_WJ2EDGVC-5.08-2P")
     )
     (path "/f1a83b46-a1ba-46e2-99b0-69508149769e"
       (reference "L1") (unit 1) (value "4.7uH 3A") (footprint "Inductor_SMD:L_6.3x6.3_H3")
