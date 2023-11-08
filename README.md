@@ -5,9 +5,7 @@ Rev 1 non isolated version
 Rev 2 power circuit is fully isolated from mcu circuit by optocoupler  
 Rev 2_1 output uses pluggable terminal instead of 4PxRJ45
 
-For more details about OXRS:
-
-  https://oxrs.io/
+For more details about OXRS: https://oxrs.io/
 
 
 Credits
