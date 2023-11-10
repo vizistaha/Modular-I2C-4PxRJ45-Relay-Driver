@@ -9,4 +9,4 @@
 | 5          | 3+         | Blue-White   |
 | 4          | 3-         | Blue         |
 | 7          | 4+         | Brown-White  |
-| 8          | 4+         | Brown        |
+| 8          | 4-         | Brown        |
