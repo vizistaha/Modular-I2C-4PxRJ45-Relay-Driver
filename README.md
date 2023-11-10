@@ -12,5 +12,5 @@ For more details about OXRS: https://oxrs.io/
 Credits
 -------
  * Austin's Creations <https://www.austinscreations.ca/>
- * Jonathan Oxer <jon@oxer.com.au>
+ * Jonathan Oxer <jon@oxer.com.au> <https://www.superhouse.tv/>
  
