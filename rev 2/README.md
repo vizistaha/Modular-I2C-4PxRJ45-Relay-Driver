@@ -1,4 +1,4 @@
-Pin     Pair    Color           
+Pin    Pair    Color           
 1       1+      Orange-White    
 2       1-      Orange          
 3       2+      Green-White     
