@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "2x4PortRJ45")(type "KiCad")(uri "${KIPRJMOD}/Kicad-Library/Footprints/2x4PortRJ45")(options "")(descr ""))
+  (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Kicad-Library/Footprints/Logo.pretty")(options "")(descr ""))
+)
