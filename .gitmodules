@@ -1,3 +1,6 @@
 [submodule "Kicad-Library"]
 	path = Kicad-Library
 	url = https://github.com/vizistaha/Kicad-Library.git
+[submodule "rev 2/Kicad-Library"]
+	path = rev 2/Kicad-Library
+	url = https://github.com/vizistaha/Kicad-Library.git
