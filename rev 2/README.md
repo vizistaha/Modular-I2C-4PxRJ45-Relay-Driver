@@ -10,3 +10,12 @@
 | 4          | 3-         | Blue         |
 | 7          | 4+         | Brown-White  |
 | 8          | 4-         | Brown        |
+
+
+VIN Jumper Connection
+
+| VIN        | JP1        | JP2     | JP3    |
+| ---------- |:---------- | ------- | ------ |
+| 12V        | VIN        | 5V      | ON     |
+| 5V         | VIN        | VIN     | OFF    |
+
