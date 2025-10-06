@@ -16,6 +16,7 @@ VIN Jumper Connection
 
 | VIN        | JP1        | JP2     | JP3    |
 | ---------- |:---------- | ------- | ------ |
+| 24V        | VIN        | 5V      | ON     |
 | 12V        | VIN        | 5V      | ON     |
 | 5V         | VIN        | VIN     | OFF    |
 
