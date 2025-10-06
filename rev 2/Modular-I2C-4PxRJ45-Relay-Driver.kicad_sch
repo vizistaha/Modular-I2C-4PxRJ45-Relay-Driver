@@ -4853,6 +4853,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_0_1"
+				(arc
+					(start -0.762 1.0196)
+					(mid 0 1.2729)
+					(end 0.762 1.0196)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Open_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:Jumper_3_Open"
 			(pin_names
 				(offset 0)
@@ -8719,6 +8869,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 137.16) (xy 158.75 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0179afa4-5f52-4b0c-b819-885bdfd6e3bd")
+	)
+	(wire
+		(pts
 			(xy -44.45 -114.3) (xy -31.75 -114.3)
 		)
 		(stroke
@@ -8766,6 +8926,16 @@
 			(type default)
 		)
 		(uuid "03a495a7-2586-48ef-90a5-9296625cb679")
+	)
+	(wire
+		(pts
+			(xy 133.35 198.12) (xy 133.35 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03fe1e4d-f9c2-4014-99f5-ae11b169437f")
 	)
 	(wire
 		(pts
@@ -9999,6 +10169,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 133.35) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a177f3c-a6fa-4d83-a68f-a244bf146687")
+	)
+	(wire
+		(pts
 			(xy 74.93 -82.55) (xy 77.47 -82.55)
 		)
 		(stroke
@@ -10236,6 +10416,16 @@
 			(type default)
 		)
 		(uuid "4175edb7-982d-40f0-bed7-21b5c8a8368c")
+	)
+	(wire
+		(pts
+			(xy 127 176.53) (xy 127 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c8b657-b007-4c13-ae4c-6ccc1faacd0b")
 	)
 	(wire
 		(pts
@@ -10849,6 +11039,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 176.53) (xy 101.6 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c42fd72-6cc3-46e4-ad7c-9beba2ea3eb0")
+	)
+	(wire
+		(pts
 			(xy -81.28 -187.96) (xy -43.18 -187.96)
 		)
 		(stroke
@@ -11329,6 +11529,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 194.31) (xy 114.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76b068f9-1969-4bcf-bfa8-8bea9289f92a")
+	)
+	(wire
+		(pts
 			(xy 217.17 63.5) (xy 242.57 63.5)
 		)
 		(stroke
@@ -11636,6 +11846,16 @@
 			(type default)
 		)
 		(uuid "845125f5-78d4-4f7a-b893-8ad34abde538")
+	)
+	(wire
+		(pts
+			(xy 120.65 181.61) (xy 127 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84f0eb9c-d567-4f9f-8103-b7a8f34390b4")
 	)
 	(wire
 		(pts
@@ -11999,6 +12219,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 199.39) (xy 144.78 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9011023d-c5be-4848-bfac-88c2c181657c")
+	)
+	(wire
+		(pts
 			(xy 147.32 24.13) (xy 149.86 24.13)
 		)
 		(stroke
@@ -12029,6 +12259,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 199.39) (xy 137.16 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915e0ffb-ab03-449c-bf20-a6bedea8193b")
+	)
+	(wire
+		(pts
 			(xy 402.59 -140.97) (xy 359.41 -140.97)
 		)
 		(stroke
@@ -12046,6 +12286,16 @@
 			(type default)
 		)
 		(uuid "91c30eb6-24b4-45c6-8c26-7180736ca1e9")
+	)
+	(wire
+		(pts
+			(xy 101.6 181.61) (xy 107.95 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92043e7b-2f53-4e3e-8ce6-e0491d6e5006")
 	)
 	(wire
 		(pts
@@ -12726,16 +12976,6 @@
 			(type default)
 		)
 		(uuid "b38408f8-7563-4654-9c5c-fe7eb5eb5763")
-	)
-	(wire
-		(pts
-			(xy 154.94 137.16) (xy 158.75 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3993aec-8666-4c84-bdd8-b05a2b45ee3a")
 	)
 	(wire
 		(pts
@@ -13966,6 +14206,16 @@
 			(type default)
 		)
 		(uuid "f5126163-ad41-48a8-ae72-3529dafd430d")
+	)
+	(wire
+		(pts
+			(xy 142.24 199.39) (xy 144.78 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5167a62-d6b3-4c21-8b45-798d854432d0")
 	)
 	(wire
 		(pts
@@ -17296,6 +17546,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 154.94 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01756e00-8b42-415a-ac13-d8d5711d1647")
+		(property "Reference" "#PWR028"
+			(at 154.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12VIN"
+			(at 154.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c86badd9-48c5-4098-bb02-bb66715cbf49")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 132.08 140.97 90)
 		(unit 1)
@@ -18170,7 +18484,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at -38.1 -105.41 0)
 			(effects
 				(font
@@ -18851,6 +19165,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:LINE")
+		(at 378.46 -195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14e7647d-6daa-4f32-8428-89d82f24d062")
+		(property "Reference" "#PWR025"
+			(at 378.46 -191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OptoIN"
+			(at 378.46 -199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 -195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 -195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 378.46 -195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "531af61b-d491-4d1f-91ec-9c925df2f1f8")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 219.71 93.98 0)
 		(unit 1)
@@ -18968,7 +19348,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 227.33 -129.54 0)
 			(effects
 				(font
@@ -19251,7 +19631,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at -72.39 -114.3 90)
 			(effects
 				(font
@@ -19327,7 +19707,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at -38.1 -132.08 0)
 			(effects
 				(font
@@ -19548,7 +19928,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 360.68 -101.6 0)
 			(effects
 				(font
@@ -19792,70 +20172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 114.3 -193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2453d7e5-3f30-44e2-9b0f-1f424c5ecdbf")
-		(property "Reference" "#PWR0152"
-			(at 114.3 -189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 114.3 -196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 -193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 -193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 -193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "180f3cdd-d9dc-4e0e-9200-893b7ebc9fa0")
-		)
-		(instances
-			(project ""
-				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
-					(reference "#PWR0152")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Thermistor_PTC")
 		(at 210.82 -146.05 90)
 		(unit 1)
@@ -19925,70 +20241,6 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "TH59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at -20.32 -193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25c6af0f-7644-459c-9f0a-b2a63d8808af")
-		(property "Reference" "#PWR0155"
-			(at -20.32 -189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at -20.32 -196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at -20.32 -193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at -20.32 -193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at -20.32 -193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d07120bc-3142-43f8-98e1-934e9f4c05ec")
-		)
-		(instances
-			(project ""
-				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
-					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -20279,6 +20531,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c9777cd-0f84-415a-8c9d-13eaae543b57")
+		(property "Reference" "#PWR019"
+			(at 101.6 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46d9c260-7cef-42d8-aeff-2f1f8bd7289d")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Austins creations:2P_DIP")
 		(at 118.11 142.24 180)
 		(unit 1)
@@ -20490,7 +20806,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at -38.1 -77.47 0)
 			(effects
 				(font
@@ -20644,7 +20960,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 360.68 -45.72 0)
 			(effects
 				(font
@@ -21127,7 +21443,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 234.95 128.27 90)
 			(effects
 				(font
@@ -22199,7 +22515,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 360.68 -73.66 0)
 			(effects
 				(font
@@ -22581,6 +22897,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 127 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fda6490-1075-44bc-a083-d787a182479a")
+		(property "Reference" "#PWR021"
+			(at 127 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 127 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab0a121d-f510-4aed-8da5-efd47cee65c5")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at -54.61 -86.36 270)
 		(mirror x)
@@ -22787,7 +23167,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 29.21 125.73 90)
 			(effects
 				(font
@@ -22863,7 +23243,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 360.68 -129.54 0)
 			(effects
 				(font
@@ -22884,6 +23264,70 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "Q63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 133.35 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b3a8353-b970-4a05-85e4-6897d63e56a6")
+		(property "Reference" "#PWR026"
+			(at 133.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 133.35 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9eaabe5-967a-4bfb-9dc8-7c4cb230eeda")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -23179,6 +23623,72 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at -20.32 -193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f52d759-51d0-4650-8acb-786e6e1a4d30")
+		(property "Reference" "#PWR022"
+			(at -20.32 -189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OptoIN"
+			(at -20.32 -196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -20.32 -193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -20.32 -193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at -20.32 -193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ddd908d-e8c8-4fd2-bb05-37d0b01e192f")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -23821,7 +24331,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C84419"
 			(at 214.63 142.24 0)
 			(effects
 				(font
@@ -23983,7 +24493,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 64.77 -82.55 90)
 			(effects
 				(font
@@ -24488,70 +24998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 247.65 -195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77348ed9-aad3-4323-9a97-9cfe11983271")
-		(property "Reference" "#PWR0157"
-			(at 247.65 -191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 247.65 -199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 -195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 -195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 247.65 -195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8ce4fa9-035e-4ace-998f-55406d562f07")
-		)
-		(instances
-			(project ""
-				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
-					(reference "#PWR0157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Conn_02x08_Counter_Clockwise_Shielded_1")
 		(lib_id "Connector_Generic_Shielded:Conn_02x08_Counter_Clockwise_Shielded")
 		(at -38.1 -182.88 0)
@@ -24787,7 +25233,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 227.33 -45.72 0)
 			(effects
 				(font
@@ -24984,7 +25430,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 64.77 -110.49 90)
 			(effects
 				(font
@@ -25286,7 +25732,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at -72.39 -58.42 90)
 			(effects
 				(font
@@ -25505,16 +25951,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 378.46 -195.58 0)
+		(lib_id "power:VDD")
+		(at 144.78 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7dfc924c-b296-496f-9513-89d4fb27ab66")
-		(property "Reference" "#PWR0162"
-			(at 378.46 -191.77 0)
+		(uuid "7d4f2412-aff2-4da8-ad1c-ac24d7c74f6b")
+		(property "Reference" "#PWR027"
+			(at 144.78 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25522,8 +25968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 378.46 -199.39 0)
+		(property "Value" "12VIN"
+			(at 144.78 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25531,7 +25977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 -195.58 0)
+			(at 144.78 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25540,7 +25986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 -195.58 0)
+			(at 144.78 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25549,7 +25995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 378.46 -195.58 0)
+			(at 144.78 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25557,12 +26003,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb6191f1-8847-4231-ba33-fc5abdd790a0")
+			(uuid "c9447ffe-997b-4eb6-9da7-52dd03b89364")
 		)
 		(instances
-			(project ""
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
-					(reference "#PWR0162")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -25628,6 +26074,72 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at 114.3 -193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f72524a-66df-426d-a13e-aaff8b74fff8")
+		(property "Reference" "#PWR023"
+			(at 114.3 -189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OptoIN"
+			(at 114.3 -196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 -193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 -193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 114.3 -193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76809082-d530-45bb-aeb1-21d8c31a8a88")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -25763,7 +26275,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 227.33 -73.66 0)
 			(effects
 				(font
@@ -26113,7 +26625,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 64.77 -138.43 90)
 			(effects
 				(font
@@ -26253,7 +26765,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 227.33 -101.6 0)
 			(effects
 				(font
@@ -26700,7 +27212,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at -38.1 -49.53 0)
 			(effects
 				(font
@@ -26950,7 +27462,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 97.79 -129.54 0)
 			(effects
 				(font
@@ -27417,7 +27929,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 194.31 -54.61 90)
 			(effects
 				(font
@@ -27785,7 +28297,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at -72.39 -86.36 90)
 			(effects
 				(font
@@ -27926,7 +28438,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 194.31 -138.43 90)
 			(effects
 				(font
@@ -28002,7 +28514,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 63.5 -54.61 90)
 			(effects
 				(font
@@ -28144,7 +28656,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 194.31 -110.49 90)
 			(effects
 				(font
@@ -28162,70 +28674,6 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "LED60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 154.94 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a815d815-cf32-4493-ba71-1b96dd67b7e9")
-		(property "Reference" "#PWR0172"
-			(at 154.94 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD"
-			(at 154.94 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "518acd10-b93c-4098-b638-b59749bdc23d")
-		)
-		(instances
-			(project ""
-				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
-					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -28777,7 +29225,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 326.39 -110.49 90)
 			(effects
 				(font
@@ -29252,6 +29700,72 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:LINE")
+		(at 114.3 194.31 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b54c7ffe-60b7-4f33-9369-d77e47fb5708")
+		(property "Reference" "#PWR020"
+			(at 114.3 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OptoIN"
+			(at 114.3 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 114.3 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15cfbf33-7d7d-43e5-af91-349581631605")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -30038,7 +30552,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at -72.39 -142.24 90)
 			(effects
 				(font
@@ -30208,7 +30722,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C84419"
 			(at 227.33 142.24 0)
 			(effects
 				(font
@@ -30697,7 +31211,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 326.39 -82.55 90)
 			(effects
 				(font
@@ -31316,7 +31830,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 194.31 -82.55 90)
 			(effects
 				(font
@@ -31457,7 +31971,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 326.39 -54.61 90)
 			(effects
 				(font
@@ -31606,6 +32120,74 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "#PWR0175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Open")
+		(at 139.7 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3e4e7e4-cf85-48c4-bd9e-d528b6a7d66a")
+		(property "Reference" "JP3"
+			(at 139.446 196.088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Open"
+			(at 139.7 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 139.7 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, open"
+			(at 139.7 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25b73a67-486a-4f1b-bd3c-0cb30c33acca")
+		)
+		(pin "1"
+			(uuid "e5af7e35-8d6e-4be1-9e5a-1a96b8a5336a")
+		)
+		(instances
+			(project ""
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -31836,7 +32418,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72038"
+		(property "LCSC" "C2286"
 			(at 326.39 -138.43 90)
 			(effects
 				(font
@@ -31988,7 +32570,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 97.79 -73.66 0)
 			(effects
 				(font
@@ -32513,7 +33095,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 97.79 -45.72 0)
 			(effects
 				(font
@@ -32788,7 +33370,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C526325"
+		(property "LCSC" "C8545"
 			(at 97.79 -101.6 0)
 			(effects
 				(font
@@ -33311,6 +33893,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:LINE")
+		(at 247.65 -195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2ec9a90-b6e4-408a-be1c-fca1d4015e38")
+		(property "Reference" "#PWR024"
+			(at 247.65 -191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "OptoIN"
+			(at 247.65 -199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 -195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 -195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"LINE\""
+			(at 247.65 -195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e09ef69-1c6b-4626-8030-258695d8310e")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 342.9 -138.43 270)
 		(mirror x)
@@ -33513,6 +34161,85 @@
 			(project ""
 				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 114.3 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6b9a57f-e024-4147-a554-48f8701302a5")
+		(property "Reference" "JP2"
+			(at 114.046 176.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 114.046 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 114.3 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49257"
+			(at 114.046 178.816 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc82abf1-ef35-4529-9ba6-720e126b8476")
+		)
+		(pin "3"
+			(uuid "2d735bfa-f0f7-4e95-9bc7-e35f052a4d33")
+		)
+		(pin "1"
+			(uuid "8a70900c-f643-48d6-b96d-e0b90925c6ae")
+		)
+		(instances
+			(project "Modular-I2C-4PxRJ45-Relay-Driver"
+				(path "/8524da93-8e55-4af1-8974-d6a0c4c21263"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
