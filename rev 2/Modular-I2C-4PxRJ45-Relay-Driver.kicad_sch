@@ -20646,12 +20646,21 @@
 				)
 			)
 		)
-		(property "LCSC" "C976364"
+		(property "LCSC" "C129078"
 			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC1" "C976364"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20703,7 +20712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vizista:CONN-TH_WJ2EDGVC-5.08-2P"
+		(property "Footprint" "LCSC:LCSC-C8465-CONN-TH_2P-P5.00_WJ500V-5.08-2P"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -20729,7 +20738,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8445"
+		(property "LCSC" "C8465"
 			(at 74.93 134.6199 0)
 			(effects
 				(font
@@ -21038,12 +21047,21 @@
 				)
 			)
 		)
-		(property "LCSC" "C2758183"
+		(property "LCSC" "C129080"
 			(at 40.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC1" "C2758183"
+			(at 40.64 74.93 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23426,7 +23444,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Vizista:CONN-TH_WJ2EDGVC-5.08-2P"
+		(property "Footprint" "LCSC:LCSC-C8465-CONN-TH_2P-P5.00_WJ500V-5.08-2P"
 			(at 69.85 111.76 0)
 			(effects
 				(font
@@ -23452,7 +23470,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8445"
+		(property "LCSC" "C8465"
 			(at 74.93 119.3799 0)
 			(effects
 				(font
