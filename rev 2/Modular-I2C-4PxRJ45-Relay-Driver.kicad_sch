@@ -20729,7 +20729,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3703"
+		(property "LCSC" "C8445"
 			(at 74.93 134.6199 0)
 			(effects
 				(font
@@ -23452,7 +23452,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3703"
+		(property "LCSC" "C8445"
 			(at 74.93 119.3799 0)
 			(effects
 				(font
