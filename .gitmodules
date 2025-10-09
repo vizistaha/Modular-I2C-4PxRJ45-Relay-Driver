@@ -1,0 +1,6 @@
+[submodule "rev 2/Kicad-Library"]
+	path = rev 2/Kicad-Library
+	url = https://github.com/vizistaha/Kicad-Library.git
+[submodule "RJ45toTerminal/Kicad-Library"]
+	path = RJ45toTerminal/Kicad-Library
+	url = https://github.com/vizistaha/Kicad-Library.git
